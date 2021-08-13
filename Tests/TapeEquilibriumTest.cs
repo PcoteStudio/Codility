@@ -27,7 +27,7 @@ namespace Tests
         [Fact]
         public void Test_FiveElementsWithNeg()
         {
-            Assert.Equal(5, model.Solution(new int[] {10, -60, 20, -50, 75}));
+            Assert.Equal(25, model.Solution(new int[] {10, -60, 20, -50, 75}));
         }
     }
 }
